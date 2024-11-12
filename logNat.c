@@ -7,7 +7,7 @@
 #include <time.h>
 
 // Tcpdump on pfsync parent interface and maybe filtered on host
-#define TCPDUMP_CMD "/usr/sbin/tcpdump -qvni vlan10 -s 1600 host 10.10.0.251"
+#define TCPDUMP_CMD "/usr/sbin/tcpdump -qvni vlan10 -s 1600 host 192.168.1.200"
 
 // IPs à ignorer
 const char *ignored_ips[] = {
